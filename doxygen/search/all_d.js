@@ -7,7 +7,7 @@ var searchData=
   ['params_5flr',['params_lr',['../classcaffe_1_1Net.html#a34018b12a617b908086ba869d05a2c7c',1,'caffe::Net']]],
   ['params_5flr_5f',['params_lr_',['../classcaffe_1_1Net.html#aeb1f85c97372f57336e4e1af3eb7b9db',1,'caffe::Net']]],
   ['params_5fweight_5fdecay_5f',['params_weight_decay_',['../classcaffe_1_1Net.html#ad337cf5b16e69533f605dbe1f6932bc9',1,'caffe::Net']]],
-  ['poolinglayer',['PoolingLayer',['../singletoncaffe_1_1PoolingLayer.html',1,'caffe']]],
+  ['poolinglayer',['PoolingLayer',['../classcaffe_1_1PoolingLayer.html',1,'caffe']]],
   ['positiveunitballfiller',['PositiveUnitballFiller',['../classcaffe_1_1PositiveUnitballFiller.html',1,'caffe']]],
   ['power_5f',['power_',['../classcaffe_1_1PowerLayer.html#a882ce133988e4dd72a10d87fec4c04c3',1,'caffe::PowerLayer']]],
   ['powerlayer',['PowerLayer',['../classcaffe_1_1PowerLayer.html#ab008c03c36436e1a0dac0fe1faa53c6d',1,'caffe::PowerLayer']]],
