@@ -60,8 +60,8 @@
 
 <pre><code>cd $CAFFE_ROOT/data/cifar10
 ./get_cifar10.sh
-cd $CAFFE_ROOT/examples/cifar10
-./create_cifar10.sh
+cd $CAFFE_ROOT
+./examples/cifar10/create_cifar10.sh
 </code></pre>
 
 <p>If it complains that <code>wget</code> or <code>gunzip</code> are not installed, you need to install them respectively. After running the script there should be the dataset, <code>./cifar10-leveldb</code>, and the data set image mean <code>./mean.binaryproto</code>.</p>
@@ -74,8 +74,8 @@ cd $CAFFE_ROOT/examples/cifar10
 
 <p>Training the model is simple after you have written the network definition protobuf and solver protobuf files (refer to <a href="../examples/mnist.html">MNIST Tutorial</a>). Simply run <code>train_quick.sh</code>, or the following command directly:</p>
 
-<pre><code>cd $CAFFE_ROOT/examples/cifar10
-./train_quick.sh
+<pre><code>cd $CAFFE_ROOT
+./examples/cifar10/train_quick.sh
 </code></pre>
 
 <p><code>train_quick.sh</code> is a simple script, so have a look inside. The main tool for training is <code>caffe</code> with the <code>train</code> action, and the solver protobuf text file as its argument.</p>
